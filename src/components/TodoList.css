@@ -1,0 +1,18 @@
+.TodoList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.TodoList li {
+   min-width: 100%;
+   width: 100px;
+}
+
+.TodoList li:nth-child(n) {
+  border: 2px solid #85a3e0;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 15px;
+  padding-right: 29px;
+  margin-left: -4px; 
+}

@@ -1,0 +1,25 @@
+.heading {
+  color: #2952a3;
+}
+
+.list {
+  color: #4976d0;
+}
+.task {
+  width: 80%;
+  color: #85a3e0;
+  padding: 0 0 15px 0;
+  margin: 15px 0;
+  position: relative;
+}
+ 
+.task:after {
+    content: "";
+    display: block;
+    width: 160%;
+    height: 2px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    background-color: #2952a3;
+}
